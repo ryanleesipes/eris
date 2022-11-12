@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Eris",
+    "description": "Use Discord in Thunderbird",
+    "version": "1.0",
+    "author": "Ryan Sipes",
+    "applications": {
+        "gecko": {
+            "id": "eris@sipes.us",
+            "strict_min_version": "102.0"
+        }
+    },
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "icons": {
+        "64": "images/discord-64.png",
+        "32": "images/discord-32.png",
+        "16": "images/discord-16.png"
+    }
+}
